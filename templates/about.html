@@ -1,0 +1,176 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Hi my name is {{name}} {{last_name}} and i am a python developer i can use from two framework like django an pyqt i am pasionate to learning new things in tech world, i like AI and another field in new techs.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Django &amp; Python Developer</h3>
+            <p class="fst-italic"></p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 28 Dec 1991
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>Phone:</strong> {{phone_number}}
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>City:</strong> {{city}}
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>Age:</strong> {{age}}
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>Degree:</strong> {{degree}}
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>PhEmailone:</strong> {{email}}
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p>I am a junior Python Developer who is passionate about learning new technologies, cooperate in teams and use best practices in order to develop backend applications using Python web frameworks like Django and Django Rest Framework. So far, I’ve worked on some personal projects that each of them was challenging somehow and turned my lessons to become a valuable experience which can solve real world problems. and i have one year experiance in ertebatate baregheh company as python developer and pyqt developer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Skills Web Frameworks Skills: Design and Implement RESTful APIs Using Django Rest Framework. This includes skills. ZMQ Skills: i can create sockets and connet them to another socket i can use any of protocols in zmq like: PUSH/PULL, REQ/REP,... PyQt Skills: make an ui with pyqt and make functionality for that parts like: buttons,and i can create pyqtgraph for picturing real data you dake and visible that signals. Django Skills: ... Code Management Skills: Managing codes with the help of Git command for local repository management and familiar with Github and Gitlab platforms for remote repository management. Database Skills: Installing and setting up relational databases specially Mysql server for development environment including: • Mysql server and client installation • Creating databases • Creating users with proper access on desired database</p>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Python <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Django <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">ZMQ <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PyQT <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">TDD <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">DRF <i class="val">50%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Languages</h2>
+          <p></p>
+        </div>
+  
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Persian <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">English <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Azerbaijan <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    </section>
+    <!-- End Skills Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+{% endblock %}
